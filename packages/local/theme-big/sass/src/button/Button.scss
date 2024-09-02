@@ -1,0 +1,157 @@
+@include extjs-button-small-ui(
+        $ui: 'green',
+        $background-color: green,
+        $icon-size:16px
+);
+@include extjs-button-small-ui(
+        $ui: 'red',
+        $background-color: red,
+        $icon-size:16px
+);
+@include extjs-button-small-ui(
+        $ui: 'ocra',
+        $background-color: #d9dc63,
+        $border-color: #a7aa4f,
+        $color: #214E70,
+        $icon-size:16px
+);
+@include extjs-button-small-ui(
+        $ui: 'blue',
+        $background-color: #155270,
+        $icon-size:16px
+);
+@include extjs-button-small-ui(
+        $ui: 'orange',
+        $background-color: orange,
+        $color: #155270,
+        $icon-size:16px
+);
+@include extjs-button-small-ui(
+        $ui: 'black',
+        $background-color: #0e0e0e,
+        $color: white,
+        $icon-size:16px
+);
+
+@include extjs-button-large-ui(
+        $ui: 'red',
+        $background-color: red
+);
+
+@include extjs-button-large-ui(
+        $ui: 'green',
+        $background-color: green
+);
+@include extjs-button-large-ui(
+        $ui: 'ocra',
+        $background-color: #d9dc63,
+        $border-color: #a7aa4f,
+        $color: #214E70
+);
+@include extjs-button-large-ui(
+        $ui: 'blue',
+        $background-color: #155270,
+        $border-color: #a7aa4f
+);
+@include extjs-button-small-ui(
+        $ui: 'siterc',
+        $background-color: #094c8b,
+        $color: white,
+        $background-color-over: #ffcc33 ,
+        $color-over: #094c8b,
+        $background-color-pressed: #ffcc33 ,
+        $color-pressed: #094c8b,
+        $icon-size:16px,
+        $font-size:18px,
+        $font-weight:bold,
+        $font-family: PT Sans Caption,
+        $border-color: #094c8b
+);
+@include extjs-button-small-ui(
+        $ui: 'siterctp',
+        $background-color: #094c8b,
+        $color: white,
+        $background-color-over: #ffcc33 ,
+        $color-over: #094c8b,
+        $background-color-pressed: #ffcc33 ,
+        $color-pressed: #094c8b,
+        $icon-size:16px,
+        $font-size:14px,
+        $font-family: PT Sans Caption,
+        $border-color: #094c8b
+);
+@include extjs-button-small-ui(
+        $ui: 'sitelogin',
+        $background-color: #FECB39,
+        $color: #004289,
+        $background-color-over: #FECB39 ,
+        $color-over: #FECB39,
+        $background-color-pressed: #FECB39 ,
+        $color-pressed: #FECB39,
+        $icon-size:16px,
+        $font-size:14px,
+        $font-family: PT Sans Caption,
+        $border-color: #FECB39
+);
+
+@include extjs-button-small-ui(
+        $ui: 'acblue',
+        $background-color: #004289,
+        $background-color-over: #004289 ,
+        $background-color-pressed: #004289 ,
+        $color: #FFFFFF,
+        $color-pressed: #FFFFFF,
+        $color-over: #FFFFFF,
+        $color-focus-over:#FFFFFF,
+        $color-focus-pressed:#FFFFFF,
+        $icon-size:16px,
+        $font-size:14px,
+        $font-family: PT Sans Caption,
+        $border-color: #004289
+);
+
+@include extjs-button-large-ui(
+        $ui: 'sitelogin',
+        $background-color: #FECB39,
+        $background-color-over: #FECB39 ,
+        $background-color-pressed: #FECB39 ,
+        $color: #004289,
+        $color-pressed: #004289,
+        $color-over: #004289,
+        $color-focus-over:#004289,
+        $color-focus-pressed:#004289,
+        $icon-size:16px,
+        $font-size:14px,
+        $font-family: PT Sans Caption,
+        $border-color: #FECB39
+);
+@include extjs-button-large-ui(
+        $ui: 'acblue',
+        $background-color: #004289,
+        $background-color-over: #004289 ,
+        $color: #FFFFFF,
+        $color-over: #FFFFFF,
+        $color-focus-over:#FFFFFF,
+        $color-focus-pressed:#FFFFFF,
+        $background-color-pressed: #004289 ,
+        $color-pressed: #FFFFFF,
+        $icon-size:16px,
+        $font-size:14px,
+        $font-family: PT Sans Caption,
+        $border-color: #004289
+);
+@include extjs-button-large-ui(
+        $ui: 'acred',
+        $background-color: #FFFFFF,
+        $background-color-over: #FFFFFF ,
+        $background-color-pressed: #FFFFFF ,
+        $color: #981A17,
+        $color-over: #981A17,
+        $color-focus-over: #981A17,
+        $color-focus-pressed: #981A17,
+        $color-pressed: #981A17,
+        $icon-size:16px,
+        $font-size:14px,
+        $font-family: PT Sans Caption,
+        $border-color: #981A17
+);

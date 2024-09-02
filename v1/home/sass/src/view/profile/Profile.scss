@@ -1,0 +1,71 @@
+.userProfilePic {
+  border: 4px solid #ddd;
+  @include border-radius(50%);
+}
+.userProfileName {
+  font-size: 16px;
+  font-weight:bold;
+  line-height: 30px;
+}
+.userProfileDesc {
+  color:#999;
+  line-height:16px;
+}
+.labeText {
+  color:#999;
+  line-height:12px;
+  padding: 0 0 10px;
+}
+
+.user-profile-desc {
+  .x-box-item, .x-layout-box-item {
+    &:before {
+      color: #35baf6;
+      margin-right: 12px;
+      font-size: 18px;
+      position: relative;
+      top: 2px;
+    }
+  }
+
+  a {
+    color:#35baf6;
+    text-decoration:none;
+  }
+
+  .box {
+    margin-left: 40px;
+    font-size: 14px;
+    line-height: 18px;
+    &:before {
+      margin-left: -20px;
+      color: $base-color;
+    }
+  }
+
+  .x-toolbar {
+    border: none;
+  }
+  .logoCompanyAddress p{
+    word-wrap: break-word;
+  }
+}
+.big-margin{
+  //margin: 0 0 20px 10px !important;
+  //height: 300px;
+}
+.field-info{
+  margin: 0 20px 5px 0;
+}
+.big-margin .x-panel-body{
+  //height: 260px !important;
+}
+@media (max-width: 1000px) {
+  .big-margin {
+    height: 480px !important;
+  }
+
+  .big-margin .x-panel-body{
+      height: 430px !important;
+  }
+}

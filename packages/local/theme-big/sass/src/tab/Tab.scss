@@ -1,0 +1,11 @@
+@include extjs-tab-ui(
+        $ui: 'viola',
+        $ui-background-color: #d169cb,
+        $ui-background-color-over:#72396C,
+        $ui-background-color-focus:#72396C,
+        $ui-background-gradient:'1',
+        $ui-background-gradient-over:'1',
+        $ui-background-color-active:#72396C,
+        $ui-color-active:#FFFFFF,
+        $ui-color-focus:#000000
+);

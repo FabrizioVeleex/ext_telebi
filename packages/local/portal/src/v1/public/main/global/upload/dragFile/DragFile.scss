@@ -1,0 +1,49 @@
+.stretch-html {
+  border: #999 dashed 2px;
+}
+
+.stretch-html .x-innerhtml {
+  height: 100%;
+}
+
+.stretch-html .drag-file-ct .x-innerhtml {
+  pointer-events: none;
+}
+
+.drag-div{
+  height: 100px;
+  width: 100px;
+}
+
+.drag-red{
+  color:red !important;
+}
+
+.active .drag-div {
+  background-color: #606060;
+}
+.active .drag-icon:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 1200;
+  content: "\f058";
+}
+.drag-label {
+  font-size: 12px;
+  padding-top: 15px;
+  text-align: center;
+  pointer-events: none;
+  display: block;
+}
+.drag-icon-div{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  pointer-events: none;
+  display: block;
+}
+.drag-icon {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  pointer-events: none;
+}

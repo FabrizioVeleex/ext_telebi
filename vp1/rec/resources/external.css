@@ -1,0 +1,965 @@
+.lock-footer {
+  bottom: 0 !important;
+  position: absolute !important;
+}
+.x-mask-msg-text {
+  padding: 25px 0 0;
+  background-image: url(/images/azienda/ajax-loader.gif) !important;
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+.x-body {
+  /*background-color: #025828 !important;*/
+  background: transparent !important;
+  min-height: 100%;
+  height: 100%;
+}
+.body {
+  font-family: "PT Sans", sans-serif !important;
+}
+.fontPT {
+  font-family: "PT Sans", sans-serif !important;
+}
+.innerLogin .x-panel-body {
+  margin: 0 auto !important;
+}
+
+.innerLoginFooter {
+  margin: 0 auto !important;
+}
+
+.winallert1 {
+  padding: 10px !important;
+  text-align: center !important;
+  font-family: "PT Sans", sans-serif;
+  color: #981a17;
+}
+.titlewingreen {
+  font-family: "PT Sans", sans-serif;
+  color: #00983a;
+  font-size: 16px;
+  font-weight: bold;
+}
+.wingreen {
+  font-family: "PT Sans", sans-serif;
+  color: #00983a;
+  font-size: 14px;
+}
+.titlewinddarkred {
+  font-family: "PT Sans", sans-serif;
+  color: #981a17;
+  font-size: 16px;
+  font-weight: bold;
+}
+.winddarkred {
+  font-family: "PT Sans", sans-serif;
+  color: #981a17;
+  font-size: 14px;
+}
+.LoginMiddle {
+  /*background-color: #E4E5E4;*/
+  background: linear-gradient(#e6e6e6, #cfcfcf) top repeat;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  border-bottom: #1d64ae solid 4px;
+}
+
+.btnOnLogin {
+  border-bottom: 3px solid #ffad15 !important;
+  font-weight: bold;
+}
+.btnAcRed {
+  border-bottom: 3px solid #981a17 !important;
+  font-weight: bold;
+}
+.btnAcBlue {
+  border-bottom: 3px solid black !important;
+  font-weight: bold;
+}
+.titleLogin .x-form-display-field {
+  background-color: transparent;
+  text-align: center;
+  color: #333333;
+  font-family: "PT Sans", sans-serif;
+  font-size: 21px;
+}
+.footerLogin {
+  text-decoration: none;
+  background-color: transparent;
+  text-align: left;
+  color: #1d64ae;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.footerAllert {
+  background-color: transparent;
+  text-align: left;
+  color: #981a17;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 32px;
+}
+
+.footers2 {
+  padding: 20px !important;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+}
+.panelFooterMain {
+  border-color: #cfcfcf !important;
+  border-top: #cfcfcf solid 2px;
+  /*position: absolute !important;*/
+  /*left: 0 !important;*/
+  /*bottom: 0 !important;*/
+  /*overflow:hidden !important;*/
+  /*display: block;*/
+}
+.panelFooter {
+  background-color: #e7e6e6 !important;
+}
+.panelFooterMain .x-panel-body {
+  background-color: #e7e6e6 !important;
+  width: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+  text-rendering: optimizeLegibility;
+}
+.spanstitle .x-panel-body {
+  color: #666666;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  padding: 0 0 0 40px;
+  font-size: 15px;
+}
+.menu1 {
+  list-style: none;
+}
+.menu1 li {
+  line-height: 34px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid #666666;
+  color: #666666;
+  background: url(/images/azienda/footer-arrow-right.gif) no-repeat right;
+}
+.menu1 li a {
+  color: #666666;
+  text-decoration: none;
+  cursor: auto;
+  font-size: 13px;
+}
+
+.inner .x-panel-body {
+  margin: 0 auto !important;
+}
+
+.innerGrid {
+  margin: 0 auto !important;
+}
+.pnltop .x-panel-body {
+  background-color: transparent !important;
+}
+.infoSteps {
+  width: 500px;
+}
+
+.steps {
+  background-color: #0c5270;
+  height: 11px;
+  width: 70%;
+  max-width: 680px;
+  margin: 40px auto;
+  position: relative;
+}
+.active {
+  top: -16px;
+}
+.first {
+  left: -25%;
+}
+.second {
+  left: 25%;
+}
+.third {
+  right: -25%;
+}
+.step {
+  position: absolute;
+  text-align: center;
+  top: -12px;
+  width: 50%;
+}
+
+.steps .step.active span.name {
+  font-weight: 700;
+}
+
+.steps .step > span.circle {
+  -webkit-box-shadow: 0 5px 5px -3px #cc802c;
+  -moz-box-shadow: 0 5px 5px -3px #cc802c;
+  box-shadow: 0 5px 5px -3px #cc802c;
+
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #01bbba;
+  font-size: 18px;
+  font-weight: 700;
+  background: #fff;
+  border: 1px solid #005c9a;
+}
+
+.steps .step > span.name {
+  display: block;
+}
+
+.steps .step.active span.circle {
+  -webkit-box-shadow: 0 0 5px 0 #cc802c;
+  -moz-box-shadow: 0 0 5px 0 #cc802c;
+  box-shadow: 0 0 5px 0 #cc802c;
+  border-radius: 50%;
+  margin: 0 auto 6px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  color: #68cecd;
+  font-size: 22px;
+  font-weight: 700;
+  background: #0c5270;
+  border: 1px solid #069a90;
+}
+
+.name {
+  font-weight: 700;
+  display: block;
+  box-sizing: border-box;
+}
+
+.buttonsSteps {
+  border-radius: 15px !important;
+}
+
+.textwelcome .x-form-display-field {
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  color: #004289;
+  font-size: 14px;
+}
+.titleactive {
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  color: #004289;
+  font-size: 14px;
+  padding: 10px;
+}
+.trigger-field {
+  background-color: #172541 !important;
+  color: white !important;
+}
+.stepline {
+  background: url(/images/azienda/avanzamento/line.png) repeat !important;
+}
+.steplineactive {
+  background: url(/images/azienda/avanzamento/line-active.png) repeat !important;
+}
+
+.steptable,
+.steptabletext {
+  border-spacing: 0;
+  /*margin:0 auto !important;*/
+}
+.steplinetext {
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  color: #004289;
+  font-size: 14px;
+}
+.btnupper .x-btn-inner {
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+}
+@media only screen and (max-width: 321px) {
+  .infoSteps {
+    width: 321px !important;
+  }
+  .filldiv {
+    display: none !important;
+  }
+  .fldnew {
+    left: 0 !important;
+  }
+  .inner2 {
+    width: 301px !important;
+  }
+  .innerGrid {
+    width: 301px !important;
+  }
+  .inner .x-panel-body {
+    width: 301px !important;
+    height: 180px !important;
+  }
+  .cmbcau {
+    width: 280px !important;
+    padding: 5px !important;
+  }
+  .cmbddt {
+    width: 280px !important;
+    padding: 5px !important;
+  }
+  .cmbprd {
+    width: 280px !important;
+    padding: 5px !important;
+  }
+  .cmbdsr {
+    width: 280px !important;
+    padding: 5px !important;
+  }
+  .steptable,
+  .steptabletext {
+    width: 320px !important;
+  }
+  .stepline,
+  .steplineactive {
+    width: 48px !important;
+  }
+  .stepimageleftactive {
+    width: 40px !important;
+  }
+  .stepimageright {
+    width: 40px !important;
+  }
+
+  .stepimageleft {
+    width: 0px !important;
+  }
+  .steplinetext {
+    width: 107px !important;
+    text-align: center !important;
+  }
+  .innerLogin .x-panel-body {
+    width: 300px !important;
+  }
+  .topLogo {
+    padding: 0 !important;
+    width: 300px !important;
+    height: 200px;
+    text-align: center;
+  }
+  .LoginMiddle {
+    padding: 40px 0 20px !important;
+    width: 300px !important;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .btnLogin {
+    width: 300px !important;
+    left: 100px !important;
+  }
+  .panelFooter {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+  .footers1 {
+    width: 300px !important;
+    padding: 20px !important;
+  }
+  .footers1 .rowsf {
+    width: 200px;
+  }
+
+  .footers2 {
+    width: 300px !important;
+    padding: 10px !important;
+    border-left: transparent;
+    border-right: transparent;
+  }
+  .footers2 .x-panel-body {
+    width: 100% !important;
+  }
+  .footers2 .spans {
+    width: 100% !important;
+  }
+  .footers3 {
+    width: 300px !important;
+    padding: 20px !important;
+  }
+  .menu1 {
+    width: 240px !important;
+  }
+  .menu1 li {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .infoSteps {
+    width: 321px !important;
+  }
+  .filldiv {
+    display: none !important;
+  }
+  .inner2 {
+    width: 301px !important;
+  }
+  .innerGrid {
+    width: 301px !important;
+  }
+  .inner .x-panel-body {
+    width: 301px !important;
+    /*height: 180px !important;*/
+  }
+  .cmbcau {
+    width: 280px !important;
+    padding: 5px !important;
+  }
+  .cmbddt {
+    width: 280px !important;
+    padding: 5px !important;
+  }
+  .cmbprd {
+    width: 280px !important;
+    padding: 5px !important;
+  }
+  .cmbdsr {
+    width: 280px !important;
+    padding: 5px !important;
+  }
+  .steptable,
+  .steptabletext {
+    width: 321px !important;
+  }
+  .stepline,
+  .steplineactive {
+    width: 48px !important;
+  }
+  .stepimageleftactive {
+    width: 40px !important;
+  }
+  .stepimageright {
+    width: 40px !important;
+  }
+
+  .stepimageleft {
+    width: 10px !important;
+  }
+  .steplinetext {
+    width: 107px !important;
+    text-align: center !important;
+  }
+  .innerLogin .x-panel-body {
+    width: 321px !important;
+  }
+  .topLogo {
+    padding: 1px !important;
+    width: 321px !important;
+    height: 100px;
+    text-align: center;
+  }
+  .LoginMiddle {
+    padding: 40px 0 20px !important;
+    width: 321px !important;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .btnLogin {
+    width: 321px !important;
+    left: 100px !important;
+  }
+  .panelFooter {
+    width: 301px !important;
+    margin-top: 20px;
+  }
+  .footers1 {
+    width: 321px !important;
+    padding: 20px !important;
+  }
+  .footers1 .rowsf {
+    width: 200px;
+  }
+  .footers2 {
+    width: 321px !important;
+    padding: 20px !important;
+    border-left: transparent;
+    border-right: transparent;
+  }
+  .footers2 .x-panel-body {
+    width: 321px !important;
+  }
+  .footers2 .spans {
+    width: 321px !important;
+  }
+  .footers3 {
+    width: 300px !important;
+    padding: 20px !important;
+  }
+  .menu1 {
+    width: 280px !important;
+  }
+  .panelwait,
+  .panelwait .x-panel-body {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .infoSteps {
+    width: 500px !important;
+  }
+  .filldiv {
+    display: none !important;
+  }
+  .inner2 {
+    width: 461px !important;
+    padding: 15px;
+  }
+  .innerGrid {
+    width: 461px !important;
+  }
+  .inner .x-panel-body {
+    width: 461px !important;
+    /*height: 210px !important;*/
+  }
+  .cmbcau {
+    width: 440px !important;
+    padding: 5px !important;
+  }
+  .cmbddt {
+    width: 440px !important;
+    padding: 5px !important;
+  }
+  .cmbprd {
+    width: 440px !important;
+    padding: 5px !important;
+  }
+  .cmbdsr {
+    width: 440px !important;
+    padding: 5px !important;
+  }
+  .steptable,
+  .steptabletext {
+    width: 461px !important;
+  }
+  .stepline,
+  .steplineactive {
+    width: 68px !important;
+  }
+  .stepimageleftactive {
+    width: 60px !important;
+  }
+  .stepimageright {
+    width: 60px !important;
+  }
+
+  .stepimageleft {
+    width: 20px !important;
+  }
+  .steplinetext {
+    width: 153px !important;
+    text-align: center !important;
+  }
+
+  .innerLogin .x-panel-body {
+    width: 480px !important;
+  }
+  .topLogo {
+    padding: 20px !important;
+    width: 480px !important;
+    height: 200px;
+    text-align: center;
+  }
+  .LoginMiddle {
+    padding: 40px 0 20px !important;
+    width: 480px !important;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .btnLogin {
+    width: 480px !important;
+    left: 200px !important;
+  }
+  .panelFooter {
+    width: 480px !important;
+    margin-top: 20px;
+  }
+  .menu1 li {
+    width: 380px !important;
+  }
+  .footers1 {
+    width: 440px !important;
+    padding: 20px !important;
+  }
+  .footers1 .rowsf {
+    width: 200px;
+  }
+  .footers2 {
+    width: 480px !important;
+    padding: 20px !important;
+    border-left: transparent;
+    border-right: transparent;
+  }
+  .footers2 .x-panel-body {
+    width: 480px !important;
+  }
+  .footers2 .spans {
+    width: 480px !important;
+  }
+  .footers3 {
+    width: 480px !important;
+    padding: 20px !important;
+  }
+  .panelwait,
+  .panelwait .x-panel-body {
+    width: 300px !important;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .infoSteps {
+    width: 769px !important;
+  }
+  .inner2 {
+    width: 749px !important;
+    padding: 10px;
+  }
+  .innerGrid {
+    width: 749px !important;
+  }
+  .inner .x-panel-body {
+    width: 749px !important;
+    /*height: 45px !important;*/
+    padding: 5px;
+  }
+  .cmbcau {
+    width: 200px !important;
+  }
+  .cmbddt {
+    width: 100px !important;
+  }
+  .cmbprd {
+    width: 150px !important;
+  }
+  .cmbdsr {
+    width: 150px !important;
+  }
+  .steps .x-panel-body {
+    -webkit-box-shadow: 0 2px 5px 0 #cc802c;
+    -moz-box-shadow: 0 2px 5px 0 #cc802c;
+    box-shadow: 0 2px 5px 0 #cc802c;
+    border-top: 1px solid #dfdfdf;
+    background: #fff;
+    margin: 80px auto 100px;
+    border-bottom: 1px solid #dfdfdf;
+  }
+
+  .steptable,
+  .steptabletext {
+    width: 700px !important;
+  }
+  .stepline,
+  .steplineactive {
+    width: 185px !important;
+  }
+  .stepimageleftactive {
+    width: 82px !important;
+  }
+  .stepimageright {
+    width: 95px !important;
+  }
+
+  .stepimageleft {
+    width: 40px !important;
+  }
+  .steplinetext {
+    width: 232px !important;
+    text-align: center !important;
+  }
+  .gridArticoli {
+    width: 700px !important;
+  }
+  .fieldsetGrid {
+    width: 640px !important;
+  }
+  .innerLogin .x-panel-body {
+    width: 700px !important;
+  }
+  .topLogo {
+    padding: 20px !important;
+    width: 700px !important;
+    height: 200px;
+    text-align: center;
+  }
+  .LoginMiddle {
+    padding: 40px 0 20px !important;
+    width: 700px !important;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .btnLogin {
+    width: 700px !important;
+    left: 280px !important;
+  }
+  .panelFooter {
+    width: 800px !important;
+    margin-top: 20px;
+  }
+  .menu1 li {
+    width: 180px !important;
+  }
+  .footers1 {
+    width: 280px !important;
+    padding: 20px !important;
+  }
+  .footers1 .rowsf {
+    width: 280px;
+  }
+  .footers1 .rowsf .spans {
+    width: 160px;
+    float: left;
+  }
+  .footers2 {
+    width: 280px !important;
+    padding: 20px !important;
+  }
+  .footers3 {
+    width: 200px !important;
+    padding: 20px !important;
+  }
+  .panelwait,
+  .panelwait .x-panel-body {
+    width: 400px !important;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .infoSteps {
+    width: 1024px !important;
+  }
+  .inner2 {
+    width: 924px !important;
+    padding: 15px;
+  }
+  .innerGrid {
+    width: 924px !important;
+  }
+  .inner .x-panel-body {
+    width: 924px !important;
+    padding: 5px;
+  }
+  .cmbcau {
+    width: 260px !important;
+  }
+  .cmbddt {
+    width: 100px !important;
+  }
+  .cmbprd {
+    width: 220px !important;
+  }
+  .cmbdsr {
+    width: 200px !important;
+  }
+
+  .steptable,
+  .steptabletext {
+    width: 1024px !important;
+  }
+  .stepline,
+  .steplineactive {
+    width: 301px !important;
+  }
+  .stepimageleftactive {
+    width: 110px !important;
+  }
+  .stepimageright {
+    width: 110px !important;
+  }
+
+  .stepimageleft {
+    width: 80px !important;
+  }
+  .steplinetext {
+    width: 341px !important;
+    text-align: center !important;
+  }
+
+  .gridArticoli {
+    width: 900px !important;
+  }
+  .fieldsetGrid {
+    width: 800px !important;
+  }
+  .innerLogin .x-panel-body {
+    width: 800px !important;
+  }
+  .topLogo {
+    padding: 20px !important;
+    width: 800px !important;
+    height: 200px;
+    text-align: center;
+  }
+
+  .LoginMiddle {
+    padding: 40px 0 20px !important;
+    width: 800px !important;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .btnLogin {
+    width: 800px !important;
+    left: 360px !important;
+  }
+  .panelFooter {
+    width: 1100px !important;
+    margin-top: 20px;
+  }
+  .menu1 li {
+    width: 240px !important;
+  }
+  .footers1 {
+    width: 360px !important;
+    padding: 20px !important;
+  }
+  .footers1 .rowsf {
+    width: 360px !important;
+  }
+
+  .footers1 .rowsf .spans {
+    width: 160px;
+    float: left;
+  }
+  .footers2 {
+    width: 360px !important;
+    padding: 20px !important;
+  }
+  .footers3 {
+    width: 360px !important;
+    padding: 20px !important;
+  }
+  .panelwait,
+  .panelwait .x-panel-body {
+    width: 600px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .infoSteps {
+    width: 1200px !important;
+  }
+  .inner2 {
+    width: 1200px !important;
+    padding: 15px;
+  }
+  .innerGrid {
+    width: 1200px !important;
+  }
+  .inner .x-panel-body {
+    width: 1200px !important;
+    padding: 5px;
+  }
+  .cmbcau {
+    width: 360px !important;
+  }
+  .cmbddt {
+    width: 200px !important;
+  }
+  .cmbprd {
+    width: 260px !important;
+  }
+  .cmbdsr {
+    width: 260px !important;
+  }
+  .steptable,
+  .steptabletext {
+    width: 1200px !important;
+  }
+  .stepline,
+  .steplineactive {
+    width: 401px !important;
+  }
+  .stepimageleftactive {
+    width: 140px !important;
+  }
+  .stepimageright {
+    width: 140px !important;
+  }
+
+  .stepimageleft {
+    width: 80px !important;
+  }
+  .steplinetext {
+    width: 400px !important;
+    text-align: center !important;
+  }
+  .gridArticoli {
+    width: 1200px !important;
+  }
+  .clsdepar {
+    width: 400px !important;
+  }
+  .clscausale {
+    width: 400px !important;
+  }
+  .fieldsetGrid {
+    width: 1200px !important;
+  }
+  .innerLogin .x-panel-body {
+    width: 1200px !important;
+  }
+  .topLogo {
+    padding: 20px !important;
+    width: 1200px !important;
+    height: 200px;
+    text-align: center;
+  }
+  .LoginMiddle {
+    padding: 40px 0 20px !important;
+    width: 1200px !important;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .btnLogin {
+    width: 1200px !important;
+    left: 500px !important;
+  }
+  .panelFooter {
+    width: 1200px !important;
+    margin-top: 20px;
+  }
+  .menu1 {
+    width: 320px;
+  }
+  .footers1 {
+    width: 380px !important;
+    padding: 20px !important;
+  }
+  .footers1 .rowsf {
+    width: 380px;
+  }
+  .footers1 .rowsf .spans {
+    width: 170px;
+    float: left;
+  }
+  .footers2 {
+    width: 380px !important;
+    padding: 20px !important;
+  }
+  .footers3 {
+    width: 380px !important;
+    padding: 20px !important;
+  }
+  .panelwait,
+  .panelwait .x-panel-body {
+    width: 800px !important;
+  }
+}

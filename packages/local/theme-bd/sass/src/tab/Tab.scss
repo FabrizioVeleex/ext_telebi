@@ -1,0 +1,33 @@
+@include extjs-tab-ui(
+        $ui: 'blue'
+        //$ui-background-color: #527F8F,
+        //$ui-background-color-focus:#456F7F,
+        //$ui-background-color-over:#456F7F,
+        //$ui-color-focus:#FFFFFF,
+        //$ui-background-color-active:#456F7F,
+        //$ui-color-active:#FFFFFF
+);
+
+@include extjs-tab-ui(
+        $ui: 'viola',
+        $ui-background-color: #d169cb,
+        $ui-background-color-over:#72396C,
+        $ui-background-color-focus:#72396C,
+        $ui-background-gradient:'1',
+        $ui-background-gradient-over:'1',
+        $ui-background-color-active:#72396C,
+        $ui-color-active:#FFFFFF,
+        $ui-color-focus:#000000
+);
+
+@include extjs-tab-ui(
+        $ui: 'siteacrolcar',
+        $ui-background-color: #094C8B ,
+        $ui-background-color-over:#094C8B,
+        $ui-background-color-focus:#094C8B,
+        $ui-background-gradient:'1',
+        $ui-background-gradient-over:'1',
+        $ui-background-color-active:#094C8B,
+        $ui-color-active:#FFFFFF,
+        $ui-color-focus:#000000
+);

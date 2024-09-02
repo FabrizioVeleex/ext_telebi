@@ -1,0 +1,17 @@
+HOME
+-Login senza selezione lingua.
+-Colore sfondo diverso.
+-Rimuovere tendina cambio lingua.
+-Nascondere cambio sfondo desktop.
+-Dockfooter rimuovere documentale default e aggiungere link cedacri.
+-Riscrivere widget su V1 e node (è l’unico).
+DIPENDENTI
+-Restrizioni visibilità dati e apertura record differente.
+-Esportazione excel personalizzata (togliere la standard).
+-Nascondere allinea clienti/fornitori su posta, zona competenza e codice agente.
+-Aggiungere tasto rinomina? Capire se serve, forse node già salva i campi giusti.
+-Genera mansionario.
+-Verificare accesso a ‘Accessi applicazioni’.
+AMMINISTRAZIONE
+-Tasto x cambio funzione nella UO.
+-Parametri: togliere campo psw estrazione dati.

@@ -1,0 +1,127 @@
+@include extjs-panel-ui(
+        $ui: 'siteacrolcar',
+        $ui-header-background-color: #094C8B,
+        $ui-border-color: #094C8B,
+        $ui-header-border-color: #094C8B,
+        $ui-body-border-color: #094C8B,
+                //$ui-border-width: 5px,
+                //$ui-border-radius: 5px,
+        $ui-header-color: #094C8B
+);
+
+@include extjs-panel-ui(
+        $ui: 'ocra',
+        $ui-header-background-color: #d9dc63,
+        $ui-border-color: #d9dc63,
+        $ui-header-border-color: #d9dc63,
+        $ui-body-border-color: #d9dc63,
+        //$ui-border-width: 5px,
+        //$ui-border-radius: 5px,
+        $ui-header-color: #214E70
+);
+
+@include extjs-panel-ui(
+        $ui: 'lightblue',
+        $ui-header-background-color: #35baf6,
+        $ui-border-color: #155270,
+        $ui-header-border-color: #155270,
+        $ui-body-border-color: #35baf6
+);
+
+@include extjs-panel-ui(
+        $ui: 'blue',
+        $ui-header-background-color: #155270,
+        $ui-border-color: #155270,
+        $ui-header-border-color: #155270,
+        $ui-body-border-color: #155270
+);
+
+@include extjs-panel-ui(
+        $ui: 'red',
+        $ui-header-background-color: red,
+        $ui-border-color: #155270,
+        $ui-header-border-color: #155270,
+        $ui-body-border-color: #155270
+);
+
+@include extjs-panel-ui(
+        $ui: 'orange',
+        $ui-header-background-color: orange,
+        $ui-border-color: #155270,
+        $ui-header-border-color: #155270,
+        $ui-body-border-color: #155270,
+        $ui-header-color: #155270
+);
+
+@include extjs-panel-ui(
+        $ui: 'viola',
+        $ui-header-background-color: #d169cb,
+        $ui-border-color: #155270,
+        $ui-header-border-color: #155270,
+        $ui-body-border-color: #155270
+);
+
+//widget contabilità
+@include extjs-panel-ui(
+        $ui: 'wcon',
+        $ui-header-background-color: #84fffd,
+        $ui-border-color: #155270,
+        $ui-header-border-color: #155270,
+        $ui-body-border-color: #155270,
+        $ui-header-color: #155270
+);
+
+//widget contabilità
+@include extjs-panel-ui(
+        $ui: 'presenze',
+        $ui-header-background-color: #24c018,
+        $ui-border-color: #155270,
+        $ui-header-border-color: #155270,
+        $ui-body-border-color: #155270
+);
+
+//applicativo attività e progetti
+@include extjs-panel-ui(
+        $ui: 'att',
+        $ui-header-background-color: orange,
+        $ui-border-color: orange,
+        $ui-header-border-color: orange,
+        $ui-body-border-color: orange,
+        $ui-header-color: #155270
+);
+
+//widget standard bianco
+@include extjs-panel-ui(
+        $ui: 'standard',
+        $ui-header-background-color: white,
+        $ui-border-color: white,
+        $ui-header-border-color: white,
+        $ui-body-border-color: white,
+        $ui-header-color: #155270
+);
+
+//applicativo clienti
+@include extjs-panel-ui(
+        $ui: 'cli',
+        $ui-header-background-color: green,
+        $ui-border-color: green,
+        $ui-header-border-color: green,
+        $ui-body-border-color: green
+);
+
+//applicativo clienti
+@include extjs-panel-ui(
+        $ui: 'for',
+        $ui-header-background-color: #545980,
+        $ui-border-color: #545980,
+        $ui-header-border-color: #545980,
+        $ui-body-border-color: #144c68
+);
+//widget attività hotspot
+@include extjs-panel-ui(
+        $ui: 'wtsk',
+        $ui-header-background-color: red,
+        $ui-border-color: #155270,
+        $ui-header-border-color: #155270,
+        $ui-body-border-color: #155270
+);

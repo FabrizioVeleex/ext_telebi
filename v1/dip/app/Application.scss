@@ -1,0 +1,30 @@
+$base-color: #ae3c3c !default;
+
+
+.fildset-transparent {
+  background-color:transparent !important;
+}
+
+.column-color-green {
+  font-weight: bold;
+  color: green;
+
+}
+.column-color-red {
+  font-weight: bold;
+  color: red;
+
+}
+.check-label .x-form-cb-label{
+  font-weight: bold;
+  color: green;
+
+}
+.x-form-cb-checked .check-label .x-form-cb-label {
+  font-weight: bold;
+  color: red !important;
+}
+
+.row-green {
+  background: rgba(76, 175, 80, 0.3)
+}

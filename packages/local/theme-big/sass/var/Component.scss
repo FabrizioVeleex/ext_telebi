@@ -1,0 +1,66 @@
+.appversion{
+  text-align: right;
+  font-style: italic;
+  font-size: x-small;
+  padding: 1px;
+  margin-right: 2px;
+}
+
+
+.titleForm{
+  height: 40px !important;
+  font-size: medium;
+  font-weight: bold;
+  color: black;
+  padding: 5px;
+  border-bottom: solid 1px;
+  .title{
+    font-weight: bold;
+  }
+  .logo{
+    vertical-align:middle;
+    padding-right: 10px;
+  }
+}
+
+.titleApp{
+  font-size: medium;
+  font-weight: bold;
+  color: black;
+  padding: 5px;
+  border-bottom: transparent;
+  .logo{
+    vertical-align:middle;
+    padding-right: 10px;
+  }
+  .logoApp{
+    vertical-align:middle;
+    float: left;
+    padding-right: 10px;
+  }
+  .title{
+    display: table-cell;
+    height: 65px;
+    vertical-align:middle;
+    font-weight: bold;
+  }
+}
+
+.logo-nav-close{
+  padding: 3px;
+}
+.text-nav-rotate{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  color: #000;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 350px;
+  float:left;
+  white-space: nowrap;
+  width: 50px;
+  vertical-align:top;
+}

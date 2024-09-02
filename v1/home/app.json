@@ -1,0 +1,135 @@
+{
+    "name": "home",
+    "version": "1.0.0.0",
+    "indexHtmlPath": "index.html",
+    "classpath": [
+        "app"
+    ],
+    "overrides": [
+        "overrides"
+    ],
+    "framework": "ext",
+    "toolkit": "classic",
+    "theme": "theme-default",
+    "requires": [
+        "font-awesome",
+        "font-pictos",
+        "ux",
+        "portal",
+        "charts",
+        "ext-locale"
+    ],
+    "locale": "it",
+    "fashion": {
+        "inliner": {
+            "enable": false
+        }
+    },
+
+    "sass": {
+        "namespace": "portale",
+        "etc": [
+            "sass/etc/all.scss"
+        ],
+        "var": [
+            "sass/var/all.scss",
+            "sass/var"
+        ],
+        "src": [
+            "sass/src"
+        ]
+    },
+    "js": [
+        {
+            "path": "resources/conf.js",
+            "includeInBundle": false
+        },
+        {
+            "path": "app.js",
+            "bundle": true
+        }
+    ],
+    "css": [
+        {
+            "path": "${build.out.css.path}",
+            "bundle": true,
+            "exclude": [
+                "fashion"
+            ]
+        }
+    ],
+     "loader": {
+         "cache": false,
+         "cacheParam": "_dc"
+     },
+
+    "production": {
+        "output": {
+            "appCache": {
+                "enable": true,
+                "path": "cache.appcache"
+            },
+            "js": {
+                "version": "ES6"
+            }
+        },
+        "loader": {
+            "cache": "${build.timestamp}"
+        },
+        "cache": {
+            "enable": true
+        },
+        "compressor": {
+            "type": "closure",
+            "warningLevel": "quiet"
+//            "type": "yui"
+        }
+    },
+
+    "testing": {
+    },
+    "development": {
+        "watch": {
+            "delay": 250
+        }
+    },
+    "bootstrap": {
+        "base": "${app.dir}",
+        
+        "microloader": "bootstrap.js",
+        "css": "bootstrap.css"
+    },
+    "output": {
+        "base": "${workspace.build.dir}/${build.environment}/${app.name}",
+        "appCache": {
+            "enable": false
+        },
+        "js": {
+            "version": "ES6"
+        }
+    },
+    "cache": {
+        "enable": false,
+        "deltas": true
+    },
+    "appCache": {
+        "cache": [
+            "index.html"
+        ],
+        "network": [
+            "*"
+        ],
+        "fallback": []
+    },
+    "resources": [
+        {
+            "path": "resources",
+            "output": "shared"
+        }
+    ],
+    "ignore": [
+        "(^|/)CVS(/?$|/.*?$)"
+    ],
+    "archivePath": "archive",
+    "id": "6060b849-033f-4bf5-aafe-ffdff6e1e5fd"
+}

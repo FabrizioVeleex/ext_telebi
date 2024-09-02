@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="shortcut icon" href="/logos/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/css/icons6.css" />
+    <link rel="stylesheet" type="text/css" href="/css/global.css" />
+    <script type="text/javascript" src="/jsn/i18next.min.js"></script>
+    <link rel="prefetch" href="/images/v1/default-wallpaper.jpg" />
+    <title>bof</title>
+    <script type="text/javascript">
+      let LOCALE = {}
+        let pathArray = window.location.pathname.split('/');
+        //recupero nome app
+        let app = pathArray[pathArray.length-2];
+        let xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+        xobj.open('GET', '/ln/?app=bof&ln=' + window.localStorage.getItem('_ln') + '&mt=' + Math.random());
+        xobj.onreadystatechange = function () {
+            if (xobj.readyState === 4 && xobj.status === 200) {
+                LOCALE = JSON.parse(xobj.responseText);
+                window.localStorage.setItem('i18next_bof', xobj.responseText)
+            }
+        };
+        xobj.send(null);
+    </script>
+
+    <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <script id="microloader" data-app="d2a6d4c1-458f-002a-aa5a-9abdf6c2dac6" type="text/javascript" src="bootstrap.js"></script>
+  </head>
+  <body class="defaultBackground">
+    <div id="divstart">
+      <div class="defaultLogo"></div>
+      <div style="clear: both"></div>
+      <img src="/images/64/BOF.png" alt="#" />
+      <h3>Waiting....</h3>
+    </div>
+  </body>
+</html>

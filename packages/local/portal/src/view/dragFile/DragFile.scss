@@ -1,0 +1,69 @@
+.stretch-html {
+  border: #999 dashed 2px;
+}
+
+.stretch-html .x-innerhtml {
+  height: 100%;
+}
+
+.stretch-html .drag-file-ct .x-innerhtml {
+  pointer-events: none;
+}
+.btn-file-upload{
+  background-color: transparent ;
+}
+.drag-file-fadeout {
+  opacity: 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.drag-file-label {
+  font-size: 12px;
+  padding-top: 30px;
+  text-align: center;
+  pointer-events: none;
+  .active & {
+    display: none;
+  }
+  .dropped & {
+    display: none;
+  }
+  .red & {
+    color: red;
+  }
+}
+
+.drag-file-icon {
+  font-family: FontAwesome;
+  font-size: 64px;
+  margin-top: 50px;
+  display: none;
+  text-align: center;
+  pointer-events: none;
+
+  .active & {
+    display: block;
+    &:after {
+      content: $fa-var-check-circle;
+      color: #8BC34A;
+    }
+  }
+
+  .dropped & {
+    display: block;
+
+    &:after {
+      content: $fa-var-cog;
+      color: #9E9E9E;
+    }
+  }
+
+  .nosupport & {
+    display: block;
+    &:after {
+      content: $fa-var-frown-o;
+      color: #9E9E9E;
+    }
+  }
+}

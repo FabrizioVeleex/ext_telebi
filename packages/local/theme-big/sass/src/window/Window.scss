@@ -1,0 +1,47 @@
+@include extjs-window-ui(
+        $ui: 'exception',
+        $ui-header-background-color: #ffa500,
+        $ui-border-color: #ffa500,
+        $ui-header-border-color: #ffa500,
+        $ui-body-border-color: #ffa500
+);
+@include extjs-window-ui(
+        $ui: 'orange',
+        $ui-header-background-color: orange,
+        $ui-border-color: #B97500,
+        $ui-header-border-color: #155270,
+        $ui-body-border-color: #155270,
+        $ui-header-color: #155270
+);
+
+@include extjs-window-ui(
+        $ui: 'red',
+        $ui-header-background-color: red,
+        $ui-border-color: #155270,
+        $ui-header-border-color: #155270,
+        $ui-body-border-color: #155270,
+        $ui-header-color: #155270
+);
+@include extjs-window-ui(
+        $ui: 'green',
+        $ui-header-background-color: green,
+        $ui-border-color: #155270,
+        $ui-header-border-color: #155270,
+        $ui-body-border-color: #155270,
+        $ui-header-color: white
+);
+
+@include extjs-window-ui(
+        $ui: 'acallert',
+        $ui-header-background-color: #FFFFFF,
+        $ui-border-color: #981A17,
+        $ui-header-border-color: trasparent,
+        $ui-body-border-color: trasparent
+);
+@include extjs-window-ui(
+        $ui: 'acallert1',
+        $ui-header-background-color: #FFFFFF,
+        $ui-border-color: #00983A,
+        $ui-header-border-color: trasparent,
+        $ui-body-border-color: trasparent
+);

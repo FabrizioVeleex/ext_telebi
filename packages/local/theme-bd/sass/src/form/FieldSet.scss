@@ -1,0 +1,14 @@
+@include extjs-fieldset-ui(
+        $ui: 'red',
+        $ui-header-color: red,
+        $ui-border-color: red,
+        $ui-collapse-tool-background-image: red
+);
+
+@include extjs-fieldset-ui(
+        $ui: 'sts',
+        $ui-header-font-size:16px,
+        $ui-header-color: #0b052b,
+        $ui-border-color: #0b052b,
+        $ui-collapse-tool-background-image: #0b052b
+);

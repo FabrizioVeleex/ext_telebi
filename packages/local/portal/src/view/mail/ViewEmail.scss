@@ -1,0 +1,33 @@
+
+.email-wrap{
+  float: left;
+  margin: 4px 5px 4px 0;
+  //margin-left: 5px;
+  padding: 5px;
+}
+.email-remove{
+  padding: 5px;
+  cursor: pointer;
+  //background-color:#00acc1;
+}
+.email-panel{
+  border: 1px solid;
+  padding: 0 0 0 5px;
+}
+
+.combo-email .x-form-text-default{
+  padding:0;
+  margin:0;
+}
+.combo-email .x-form-trigger-wrap{
+  border: none;
+}
+.span-email{
+  margin: 4px 0 0;
+  padding: 0;
+}
+.email-select{
+  -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; o-border-radius: 6px; khtml-border-radius: 6px; border: 1px solid #CAD8F3;
+  background-color: #DEE7F8;
+  cursor: default;
+}

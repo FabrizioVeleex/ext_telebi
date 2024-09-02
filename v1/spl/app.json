@@ -1,0 +1,98 @@
+{
+  "name": "spl",
+  "namespace": "spl",
+  "version": "2.0.0.0",
+  "framework": "ext",
+  "toolkit": "classic",
+  "theme": "theme-default",
+
+  "indexHtmlPath": "index.html",
+  "classpath": ["app"],
+  "overrides": ["overrides"],
+  "requires": ["font-awesome", "font-pictos", "ux", "portal", "ext-locale"],
+  "locale": "it",
+  "fashion": {
+    "inliner": {
+      "enable": false
+    }
+  },
+  "sass": {
+    "namespace": "spl",
+    "etc": ["sass/etc/all.scss"],
+    "var": ["sass/var/all.scss", "sass/var"],
+    "src": ["sass/src"]
+  },
+  "js": [
+    {
+      "path": "resources/conf.js",
+      "includeInBundle": false
+    },
+    { "path": "resources/signature_pad.js", "includeInBundle": false },
+    {
+      "path": "app.js",
+      "bundle": true
+    }
+  ],
+  "css": [
+    {
+      "path": "${build.out.css.path}",
+      "bundle": true,
+      "exclude": ["fashion"]
+    }
+  ],
+  "loader": {
+    "cache": false,
+    "cacheParam": "_dc"
+  },
+  "production": {
+    "output": {
+      "appCache": {
+        "enable": true,
+        "path": "cache.appcache"
+      }
+    },
+    "loader": {
+      "cache": "${build.timestamp}"
+    },
+    "cache": {
+      "enable": true
+    },
+    "compressor": {
+      "type": "yui"
+    }
+  },
+  "testing": {},
+  "development": {
+    "tags": []
+  },
+  "bootstrap": {
+    "base": "${app.dir}",
+
+    "microloader": "bootstrap.js",
+    "css": "bootstrap.css"
+  },
+  "output": {
+    "base": "${workspace.build.dir}/${build.environment}/${app.name}",
+    "appCache": {
+      "enable": false
+    }
+  },
+  "cache": {
+    "enable": false,
+    "deltas": true
+  },
+  "appCache": {
+    "cache": ["index.html"],
+    "network": ["*"],
+    "fallback": []
+  },
+  "resources": [
+    {
+      "path": "resources",
+      "output": "shared"
+    }
+  ],
+  "ignore": ["(^|/)CVS(/?$|/.*?$)"],
+  "archivePath": "archive",
+  "id": "f8e3d27e-b816-4a4c-8e54-456cea9ea9d3"
+}

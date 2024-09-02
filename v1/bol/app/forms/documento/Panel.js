@@ -1,0 +1,20 @@
+/**
+ * Created by luke on 16/03/21.
+ */
+Ext.define('bol.forms.documento.Panel', {
+  extend: 'portal.v1.view.forms.mainCard.Panel',
+  requires: [
+    'bol.forms.documento.controller.Controller',
+    'bol.forms.documento.model.ViewModel'
+  ],
+  title: Locale.t('global.form.caricamento'),
+  controller: 'v1-controller-documento',
+  viewModel: 'v1-model-documento',
+  bind: {
+    iconCls: '{record.iconCls}'
+  },
+  listeners: {
+    close: 'onClose',
+    afterRender: 'onAfterRender'
+  }
+});   

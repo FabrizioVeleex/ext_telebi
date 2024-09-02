@@ -1,0 +1,73 @@
+.titleForm{
+  height: 40px !important;
+  font-size: medium;
+  font-weight: bold;
+  color: black;
+  padding: 5px;
+  border-bottom: solid 1px;
+  .title{
+    font-weight: bold;
+  }
+  .logo{
+    vertical-align:middle;
+    padding-right: 10px;
+  }
+}
+
+.titleApp{
+  padding: 5px;
+  border-bottom: #00c853;
+  .logoRight{
+    padding-right: 10px;
+    float: left;
+    .logo{
+      //float: left;
+      //vertical-align:middle;
+    }
+    .title{
+      //float: left;
+      font-size: medium;
+      font-weight: bold;
+    }
+
+  }
+  .logoApp{
+    vertical-align:middle;
+    float: left;
+    padding-right: 10px;
+  }
+  .appversion{
+    text-align: left;
+    font-style: italic;
+    font-size: x-small;
+    padding: 1px;
+    color: #4E4E4E;
+    margin-right: 2px;
+  }
+  .copyright{
+    font-style: italic;
+    font-size: x-small;
+    padding: 1px;
+    color: #4e4e4e;
+    margin-right: 2px;
+  }
+}
+
+.logo-nav-close{
+  padding: 3px;
+}
+.text-nav-rotate{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  color: #000;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 250px;
+  float:left;
+  white-space: nowrap;
+  width: 50px;
+  vertical-align:top;
+}

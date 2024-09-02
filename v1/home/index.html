@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="shortcut icon" href="/logos/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/css/icons6.css" />
+    <link rel="stylesheet" type="text/css" href="/css/global.css?id=home" />
+    <script type="text/javascript" src="/jsn/language.js"></script>
+    <script type="text/javascript" src="/jsn/i18next.min.js"></script>
+    <link rel="icon" href="/logos/icon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="/logos/icon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="/logos/icon-180x180.png" />
+
+    <script type="text/javascript">
+      let LOCALE = {};
+      //   document.addEventListener("readystatechange", (event) => {
+      //     console.log(`readystate: ${document.readyState}`);
+      //   });
+      let on_unload = function () {
+        // console.log("on_unload");
+        if (Ext.global.Vars.infoUser.token !== undefined && Ext.global.Vars.logout === false) {
+          let date = new Date();
+          date.setTime(date.getTime() + 30 * 1000);
+          window.localStorage.setItem("_expire", Date.parse(date));
+          window.localStorage.setItem("_token", Ext.global.Vars.infoUser.token);
+        }
+      };
+
+      let xobj = new XMLHttpRequest();
+      xobj.overrideMimeType("application/json");
+      xobj.open("GET", "/ln/?app=home&ln=" + window.localStorage.getItem("_ln") + "&mt=" + Math.random());
+      xobj.onreadystatechange = function () {
+        if (xobj.readyState === 4 && xobj.status === 200) {
+          LOCALE = JSON.parse(xobj.responseText);
+          window.localStorage.setItem("locale", xobj.responseText);
+        }
+      };
+      xobj.send(null);
+    </script>
+
+    <title>Opening in progress...</title>
+    <script id="microloader" data-app="6060b849-033f-4bf5-aafe-ffdff6e1e5fd" type="text/javascript" src="bootstrap.js"></script>
+  </head>
+  <body onunload="on_unload()" class="defaultBackground">
+    <div id="divstart">
+      <div class="defaultLogo"></div>
+      <h3>Opening in progress....</h3>
+    </div>
+  </body>
+</html>
